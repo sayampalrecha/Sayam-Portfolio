@@ -41,12 +41,6 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
             View My Projects
           </a>
           <a 
-            href="#contact" 
-            className="bg-secondary text-primary px-8 py-3.5 rounded-lg font-medium transition-all hover:translate-y-[-1px] hover:shadow-sm active:translate-y-[1px]"
-          >
-            Get In Touch
-          </a>
-          <a 
             href="https://drive.google.com/file/d/1UtZDID3BzuC8SsUWzM2Dxc9on4_dr9Jo/view?usp=sharing" 
             className="bg-secondary text-primary px-8 py-3.5 rounded-lg font-medium transition-all hover:translate-y-[-1px] hover:shadow-sm active:translate-y-[1px]"
           >
