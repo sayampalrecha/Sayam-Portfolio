@@ -52,8 +52,8 @@ const About: React.FC<AboutProps> = ({ className }) => {
                 <div>
                   <h3 className="font-medium text-primary mb-2">Education</h3>
                   <p className="text-muted-foreground text-sm">
-                    Bachelor of Science in Data Science<br />
-                    Currently Pursuing
+                    Bachelor's in Artificial Intelligence and Data Science<br />
+                    Currently Pursuing Master's in Data Science
                   </p>
                 </div>
                 <div>
