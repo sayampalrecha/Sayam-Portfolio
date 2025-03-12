@@ -27,11 +27,11 @@ const About: React.FC<AboutProps> = ({ className }) => {
         <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
           <AnimatedSection animation="fade-in-right" delay={300}>
             <div className="relative">
-              <div className="relative z-10 overflow-hidden rounded-2xl shadow-xl">
+              <div className="relative z-10 overflow-hidden rounded-2xl shadow-xl h-80">
                 <img
                   src="/lovable-uploads/015b5094-41d0-4d10-9e59-58dfaaa36a3d.png"
                   alt="Profile photo in Times Square"
-                  className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"
+                  className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
                 />
               </div>
               <div className="absolute top-0 left-0 w-full h-full bg-accent/10 rounded-2xl transform translate-x-4 translate-y-4 -z-10"></div>
