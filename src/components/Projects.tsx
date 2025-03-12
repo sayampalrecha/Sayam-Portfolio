@@ -12,9 +12,9 @@ const projectsData = [
   {
     title: 'Market Strategy and Visualization of Portfolio Returns using ML',
     description: 'Unsupervised ML model to create market strategy and visualize the results',
-    imageSrc: 'https://drive.google.com/file/d/1BymW8P9zyRCzqH1N23ebvcI3lltBaqB3/view?usp=drive_link',
+    imageSrc: 'https://unsplash.com/photos/a-bank-sign-in-front-of-a-building-Wf1opKy4iaI',
     tags: ['Machine Learning', 'Feature Engineering', 'Financial Markets'],
-    link: 'https://unsplash.com/photos/a-bank-sign-in-front-of-a-building-Wf1opKy4iaI',
+    link: 'https://github.com/sayampalrecha/Black_scholes_algorithm',
   },
   {
     title: 'Financial Dashboard',
