@@ -10,11 +10,11 @@ interface ProjectsProps {
 
 const projectsData = [
   {
-    title: 'Modern E-Commerce Platform',
-    description: 'A minimalist shopping experience with focus on product photography and intuitive user interactions.',
-    imageSrc: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&auto=format&fit=crop',
-    tags: ['UI/UX', 'React', 'Node.js'],
-    link: '#',
+    title: 'Market Strategy and Visualization of Portfolio Returns using ML',
+    description: 'Unsupervised ML model to create market strategy and visualize the results',
+    imageSrc: 'https://drive.google.com/file/d/1BymW8P9zyRCzqH1N23ebvcI3lltBaqB3/view?usp=drive_link',
+    tags: ['Machine Learning', 'Feature Engineering', 'Financial Markets'],
+    link: 'https://github.com/sayampalrecha/Black_scholes_algorithm',
   },
   {
     title: 'Financial Dashboard',
