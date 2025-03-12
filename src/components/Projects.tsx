@@ -14,7 +14,7 @@ const projectsData = [
     description: 'Unsupervised ML model to create market strategy and visualize the results',
     imageSrc: 'https://drive.google.com/file/d/1BymW8P9zyRCzqH1N23ebvcI3lltBaqB3/view?usp=drive_link',
     tags: ['Machine Learning', 'Feature Engineering', 'Financial Markets'],
-    link: 'https://github.com/sayampalrecha/Black_scholes_algorithm',
+    link: 'https://unsplash.com/photos/a-bank-sign-in-front-of-a-building-Wf1opKy4iaI',
   },
   {
     title: 'Financial Dashboard',
