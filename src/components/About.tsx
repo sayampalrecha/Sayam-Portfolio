@@ -20,7 +20,7 @@ const About: React.FC<AboutProps> = ({ className }) => {
         <AnimatedSection>
           <div className="section-subtitle">About Me</div>
           <h2 className="section-title mb-16">
-            Focused on creating products that people love to use.
+            Passionate about uncovering patterns and solving problems with data.
           </h2>
         </AnimatedSection>
 
@@ -41,26 +41,26 @@ const About: React.FC<AboutProps> = ({ className }) => {
           <AnimatedSection animation="fade-in-left" delay={500}>
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-primary/90">
-                I'm a designer and developer with over 6 years of experience creating digital products for clients around the world. My approach combines clean aesthetics with functional design.
+                I'm a Data Science student with a strong foundation in statistics, machine learning, and data analysis. I'm passionate about extracting meaningful insights from complex datasets and building models that solve real-world problems.
               </p>
               
               <p className="text-muted-foreground leading-relaxed">
-                My work is guided by the philosophy that design should remove complexity, not add to it. Every pixel and line of code I craft is purposeful, aiming to create intuitive and enjoyable user experiences.
+                My approach combines rigorous statistical methods with cutting-edge machine learning techniques. I believe in the power of data to drive informed decision-making and create positive impact across industries.
               </p>
               
               <div className="pt-4 grid grid-cols-2 gap-6">
                 <div>
                   <h3 className="font-medium text-primary mb-2">Education</h3>
                   <p className="text-muted-foreground text-sm">
-                    Bachelor of Design<br />
-                    California Design Institute
+                    Bachelor of Science in Data Science<br />
+                    Currently Pursuing
                   </p>
                 </div>
                 <div>
-                  <h3 className="font-medium text-primary mb-2">Experience</h3>
+                  <h3 className="font-medium text-primary mb-2">Skills</h3>
                   <p className="text-muted-foreground text-sm">
-                    Senior Designer at Studio92<br />
-                    Design Lead at Minimal Inc
+                    Python, R, SQL, Machine Learning<br />
+                    Data Visualization, Statistical Analysis
                   </p>
                 </div>
               </div>
@@ -70,7 +70,7 @@ const About: React.FC<AboutProps> = ({ className }) => {
                   href="#contact" 
                   className="inline-flex items-center text-accent font-medium hover:text-accent/80 transition-colors link-underline"
                 >
-                  Let's work together
+                  Let's collaborate on data projects
                 </a>
               </div>
             </div>

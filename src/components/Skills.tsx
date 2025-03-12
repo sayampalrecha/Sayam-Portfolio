@@ -3,12 +3,12 @@ import React from 'react';
 import { cn } from '@/lib/utils';
 import AnimatedSection from './AnimatedSection';
 import { 
-  Paintbrush, 
+  BarChart, 
   Code2, 
-  Lightbulb, 
-  Smartphone, 
+  Database, 
   LineChart, 
-  Globe 
+  BrainCircuit, 
+  PieChart 
 } from 'lucide-react';
 
 interface SkillsProps {
@@ -17,34 +17,34 @@ interface SkillsProps {
 
 const skillsData = [
   {
-    title: 'UI/UX Design',
-    description: 'Creating intuitive interfaces focusing on user needs and business goals.',
-    icon: Paintbrush,
+    title: 'Data Analysis',
+    description: 'Exploring and analyzing complex datasets to extract valuable insights and patterns.',
+    icon: BarChart,
   },
   {
-    title: 'Frontend Development',
-    description: 'Building responsive websites with modern frameworks like React and Vue.',
-    icon: Code2,
+    title: 'Machine Learning',
+    description: 'Building predictive models and algorithms that learn from data and improve over time.',
+    icon: BrainCircuit,
   },
   {
-    title: 'Product Strategy',
-    description: 'Defining product vision and roadmap to achieve measurable objectives.',
-    icon: Lightbulb,
-  },
-  {
-    title: 'Mobile Development',
-    description: 'Developing cross-platform applications for iOS and Android devices.',
-    icon: Smartphone,
-  },
-  {
-    title: 'Data Visualization',
-    description: 'Presenting complex data in intuitive, actionable visual formats.',
+    title: 'Statistical Analysis',
+    description: 'Applying statistical methods to interpret data and support decision-making processes.',
     icon: LineChart,
   },
   {
-    title: 'SEO Optimization',
-    description: 'Improving site visibility and search rankings for organic traffic growth.',
-    icon: Globe,
+    title: 'Python Programming',
+    description: 'Proficient in Python and libraries like Pandas, NumPy, scikit-learn, and TensorFlow.',
+    icon: Code2,
+  },
+  {
+    title: 'Data Visualization',
+    description: 'Creating clear, effective visualizations to communicate complex data insights.',
+    icon: PieChart,
+  },
+  {
+    title: 'Database Management',
+    description: 'Working with SQL and NoSQL databases to store, retrieve, and analyze large datasets.',
+    icon: Database,
   },
 ];
 
@@ -65,7 +65,7 @@ const Skills: React.FC<SkillsProps> = ({ className }) => {
         <AnimatedSection>
           <div className="section-subtitle">Expertise</div>
           <h2 className="section-title max-w-2xl mb-16">
-            Using design and technology to solve complex problems
+            Using data science to solve complex problems and drive insights
           </h2>
         </AnimatedSection>
 

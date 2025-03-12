@@ -22,15 +22,15 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
       
       <div className="container max-w-5xl mx-auto text-center relative z-10">
         <div className="inline-block mb-6 px-4 py-1.5 rounded-full bg-accent/10 text-accent text-sm font-medium animate-fade-in" style={{ animationDelay: '300ms' }}>
-          Creative Designer & Developer
+          Data Science Student
         </div>
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-medium text-primary tracking-tight mb-6 animate-fade-in" style={{ animationDelay: '500ms' }}>
-          Creating digital experiences with precision & purpose
+          Transforming data into meaningful insights
         </h1>
         
         <p className="text-muted-foreground max-w-2xl mx-auto mb-10 text-lg animate-fade-in" style={{ animationDelay: '700ms' }}>
-          I blend minimalist design principles with cutting-edge technology to build products that are both beautiful and functional.
+          I combine statistical analysis with machine learning techniques to extract valuable insights from complex datasets and build data-driven solutions.
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in" style={{ animationDelay: '900ms' }}>
@@ -38,7 +38,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
             href="#projects" 
             className="bg-primary text-white px-8 py-3.5 rounded-lg font-medium transition-all hover:translate-y-[-1px] hover:shadow-md active:translate-y-[1px]"
           >
-            View My Work
+            View My Projects
           </a>
           <a 
             href="#contact" 
