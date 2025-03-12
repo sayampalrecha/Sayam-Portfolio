@@ -29,8 +29,8 @@ const About: React.FC<AboutProps> = ({ className }) => {
             <div className="relative">
               <div className="relative z-10 overflow-hidden rounded-2xl shadow-xl">
                 <img
-                  src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=800&auto=format&fit=crop"
-                  alt="Portrait photo"
+                  src="/lovable-uploads/015b5094-41d0-4d10-9e59-58dfaaa36a3d.png"
+                  alt="Profile photo in Times Square"
                   className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"
                 />
               </div>
