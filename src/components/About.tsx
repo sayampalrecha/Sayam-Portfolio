@@ -18,7 +18,7 @@ const About: React.FC<AboutProps> = ({ className }) => {
     >
       <div className="container max-w-5xl mx-auto">
         <AnimatedSection>
-          <div className="section-subtitle">About Me</div>
+          <div className="section-subtitle">About Me:)</div>
           <h2 className="section-title mb-16">
             Passionate about uncovering patterns and solving problems with data.
           </h2>
