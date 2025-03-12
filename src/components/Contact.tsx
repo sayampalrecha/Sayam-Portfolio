@@ -36,8 +36,8 @@ const Contact: React.FC<ContactProps> = ({ className }) => {
                 </div>
                 <div>
                   <h3 className="font-medium text-white">Email</h3>
-                  <a href="mailto:hello@example.com" className="text-white/70 hover:text-white transition-colors">
-                    hello@example.com
+                  <a href="mailto:sayampalrecha1@gmail.com" className="text-white/70 hover:text-white transition-colors">
+                    sayampalrecha1@gmail.com
                   </a>
                 </div>
               </div>
@@ -48,8 +48,8 @@ const Contact: React.FC<ContactProps> = ({ className }) => {
                 </div>
                 <div>
                   <h3 className="font-medium text-white">Phone</h3>
-                  <a href="tel:+11234567890" className="text-white/70 hover:text-white transition-colors">
-                    +1 (123) 456-7890
+                  <a href="tel:+17039289345" className="text-white/70 hover:text-white transition-colors">
+                    +1 (703) 928-9345
                   </a>
                 </div>
               </div>
@@ -61,7 +61,7 @@ const Contact: React.FC<ContactProps> = ({ className }) => {
                 <div>
                   <h3 className="font-medium text-white">Location</h3>
                   <p className="text-white/70">
-                    San Francisco, California
+                    Washington, DC
                   </p>
                 </div>
               </div>
