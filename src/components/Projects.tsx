@@ -10,9 +10,9 @@ interface ProjectsProps {
 
 const projectsData = [
   {
-    title: 'Market Strategy and Visualization of Portfolio Returns using ML',
-    description: 'Unsupervised ML model to create market strategy and visualize the results',
-    imageSrc: 'https://unsplash.com/photos/a-bank-sign-in-front-of-a-building-Wf1opKy4iaI',
+    title: 'Black-Scholes-Algorithm Option Pricing',
+    description: 'Python Implementation and Streamlit Interface for understanding and using B-S Algorithm',
+    imageSrc: 'https://images.unsplash.com/photo-1741439432848-ae1301dca116?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     tags: ['Machine Learning', 'Feature Engineering', 'Financial Markets'],
     link: 'https://github.com/sayampalrecha/Black_scholes_algorithm',
   },
