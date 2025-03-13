@@ -17,27 +17,27 @@ const projectsData = [
     link: 'https://github.com/sayampalrecha/Black_scholes_algorithm',
    
       },
+  // {
+  //   title: 'WeedGuard-Smart Weed Detection',
+  //   description: 'Smart Weed Detection using YOLO based model',
+  //   imageSrc: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  //   tags: ['Computer Vision', 'YOLO', 'Transfer Learning'],
+  //   link: 'https://github.com/sayampalrecha/WeedGuard-Smart-Weed-Detection-Using-Computer-Vision',
+  // },
   {
-    title: 'WeedGuard-Smart Weed Detection',
-    description: 'Smart Weed Detection using YOLO based model',
-    imageSrc: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    tags: ['Computer Vision', 'YOLO', 'Transfer Learning'],
-    link: 'https://github.com/sayampalrecha/WeedGuard-Smart-Weed-Detection-Using-Computer-Vision',
-  },
-  {
-    title: 'Medical Data Visualization',
+    title: 'Covid Data Visualization',
     description: 'Data visualization of medical data using static and dynamic plots',
     imageSrc: 'https://images.unsplash.com/photo-1584291527935-456e8e2dd734?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D,
     tags: ['Python', 'Plotly','Matplotlib & Seaborn'],
-    link: '#',
+    link: 'https://github.com/sayampalrecha/Covid-Data-Visualization',
   },
-  {
-    title: 'Smart Home Control System',
-    description: 'IoT interface allowing users to manage connected devices with voice commands and automation.',
-    imageSrc: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop',
-    tags: ['IoT', 'UX Design', 'Swift'],
-    link: '#',
-  },
+  // {
+  //   title: 'Smart Home Control System',
+  //   description: 'IoT interface allowing users to manage connected devices with voice commands and automation.',
+  //   imageSrc: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop',
+  //   tags: ['IoT', 'UX Design', 'Swift'],
+  //   link: '#',
+  // },
 ];
 
 const Projects: React.FC<ProjectsProps> = ({ className }) => {
